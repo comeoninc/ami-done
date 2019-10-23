@@ -28,9 +28,22 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fonts/themify-icons.css",
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/vendor/bootstrap-select/css/bootstrap-select.min.css",
+              "src/assets/vendor/bootstrap-slider/css/bootstrap-slider.min.css",
+              "src/assets/styles/css/done/done.min.css",
+	      "src/assets/styles/css/flexboxgrid.css",
+	      "src/assets/styles/css/normalize.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+	      "src/assets/vendor/bootstrap-select/js/bootstrap-select.min.js",
+              "src/assets/vendor/bootstrap-slider/bootstrap-slider.min.js",
+              "src/assets/vendor/feather.min.js",
+              "src/assets/js/es5/done.min.js"
+	    ]
           },
           "configurations": {
             "production": {
